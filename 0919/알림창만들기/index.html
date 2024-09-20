@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <button onclick="show()">알림창 열기</button>
+  <div id="ab" class="alert-box">알람창</div>
+  <div>
+    <button onclick="showBox('알람창 1번입니다.')">알림창1</button>
+    <button onclick="showBox('알람창 2번입니다.')">알림창2</button>
+    <button onclick="showBox('알람창 3번입니다.')">알림창3</button>
+    <button class="close" onclick="closeBox()">닫기</button>
+  </div>
+<!-- jQuery cdn -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
